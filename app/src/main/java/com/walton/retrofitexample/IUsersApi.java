@@ -9,7 +9,7 @@ import retrofit2.http.POST;
 
 public interface IUsersApi {
     @Headers("Content-Type: application/json")
-    @POST("/salesAPIdev/api/login")
+    @POST("/path/filename")
     Call<User> getUser(@Body String login);
 
 }
