@@ -16,7 +16,7 @@ public class ApiManager {
     private ApiManager() {
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.100.56:8080/")
+                .baseUrl("http://..base_url../")
                 .addConverterFactory( ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
